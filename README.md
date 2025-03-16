@@ -1,41 +1,27 @@
 # Calculator
-
-## Description:
-A functional calculator program that allows users to perform basic arithmetic operations 
-(addition, subtraction, multiplication, division) interactively. The program supports reusability by allowing users 
-to continue calculations with the previous result or start afresh. Features include an intuitive user interface for
-input, dynamic operation handling using functions stored in a dictionary, and a visual logo integration from art.py.
-
-## Level
-- **Level**: Intermediate
-- **Skills:** Python, Functions, Dictionaries, Loops, User Interaction
-- **Domain:** Programming Tools, Arithmetic Operations, Educational
+An interactive Python calculator supporting addition, subtraction, multiplication, and division. Users can continue calculations with previous results or start fresh.
 
 ## Author
-- **Name**: Pranjal Sarnaik
-- **Date**: 2024-12-03
+Pranjal Sarnaik
 
 ## Features
-Dynamic calculation logic, supports multiple operations, option to continue with previous results, uses 
-dictionaries for operation mapping, modular function-based design, external file integration for logo.
+- Supports addition, subtraction, multiplication, and division.  
+- Allows continuing calculations with previous results.  
+- Uses dictionaries for dynamic operation mapping.  
+- Modular, function-based design for better reusability.  
+- Integrates an external file (`art.py`) for logo display.
 
-## Installation
-1. Clone this repository:
-   ```bash
+## Tech Stack
+Intermediate | Python | Functions | Dictionaries | Loops | User Interaction | Programming Tools | Arithmetic Operations | Educational
+
+## How to Run
+1. Clone the repo:  
+   ```bash  
    git clone https://github.com/pranjalco/calculator-intermediate.git
 
-2. Navigate to the project directory:
-   ```bash
-   cd calculator-intermediate
+2. Run:
+    ```bash  
+   python app.py
 
-## Running the Program
-1. Ensure Python 3.9 or later is installed on your system.
-2. To run the program:
-   - **Using PyCharm**: Open the project in PyCharm and run `app.py`.
-   - **Using Terminal/Command Prompt**: Navigate to the project folder and execute:
-     ```bash
-     python app.py
-     ```
-   - **By Double-Clicking**: You can double-click `app.py` to run it directly, provided Python is set up to execute `.py` files on your system.
-3. If the console window closes immediately, run the program from the terminal/command prompt or IDE to see the output.
-
+**Created by Pranjal Sarnaik**  
+*© 2024. All rights reserved.*
